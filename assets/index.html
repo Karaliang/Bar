@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>看Bar！</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<nav>
+    <!--Logo-->
+    <div class="logo"><img src="https://picsum.photos/100" alt="logo" style="border-radius: 50%;"></div>
+    <div class="bar">
+        <!--品牌介紹-->
+        <div class="brand"><a href="#">品牌介紹</a></div>
+        <!--產品分類-->
+        <div class="product">
+            產品分類
+        </div>
+        <!--關於我們-->
+        <div class="aboutus"><a href="#">關於我們</a></div>
+        <div class="nav_img">
+            <!--會員登入/會員資料-->
+            <a href="#"><img src="img/member.png" alt="member"></a>
+            <!--購物車-->
+            <a href="#"><img src="img/cart.png" alt="cart"></a>
+            <!--搜尋-->
+            <a href="#"><img src="img/search.png" alt="search"></a>
+        </div>
+    </div>
+</nav>
+
+
+<body>
+    <!--動態廣告-->
+    <!--參考資料：https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://picsum.photos/1000/350" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://picsum.photos/1000/350" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://picsum.photos/1000/350" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+        <!--類別推薦-->
+        <section class="sec_timeline">
+            <div class="timeline">
+                <div class="container left">
+                    <div class="content timecard ">
+                        <h2 class="book">書名</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corrupti fugit nesciunt culpa corporis aperiam quis sequi veritatis incidunt facilis magnam esse saepe nemo, non fugiat! Dolore ratione perspiciatis nobis!</p>
+                        <a href="#">Read more~</a>
+                        <div class="bookimg"><img class="timepicture" src="img/horry/horry01.jpg"  ></div>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content timecard">
+                        <h2 class="book">書名</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid voluptatum quis autem obcaecati libero asperiores qui ad quibusdam laborum? Cupiditate facilis cum impedit vel laboriosam repellat possimus eveniet odit id?</p>
+                        <a href="#">Read more~</a>
+                        <div class="bookimg"><img  class="timepicture" src="img/love/love01.jpg"></a></div>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="content timecard ">
+                        <h2 class="book">書名</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorem perspiciatis aut doloribus, sequi voluptatibus. At iusto modi sit reprehenderit quibusdam officia non, vero quos eaque temporibus! Libero, officia dolore.</p>
+                        <a href="#">Read more~</a>
+                        <div class="bookimg"><img class="timepicture" src="img/suspense/suspense01.jpg"></div>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content timecard ">
+                        <h2 class="book">書名</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vero exercitationem ad ipsum totam quasi mollitia hic culpa qui! Veniam delectus ab deleniti, explicabo minima sint iusto asperiores similique fugit.</p>
+                        <a href="#">Read more~</a>
+                        <div class="bookimg"><img class="timepicture"  src="img/fantasy/fantasy01.jpg"></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer>
+            Copyright © 2023 all rights reserved<br>
+            瀏覽人數：
+        </footer>
+
+        <script src="js/main.js"></script>
+</body>
+</html>
