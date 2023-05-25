@@ -25,9 +25,8 @@ body{
 }
 
 form{
-	display: flex;
-  flex-direction: column;
-  border-radius: 25px;
+	display: block;
+    border-radius: 25px;
 	background: #ededed;
 	padding:3rem 2rem;
 	transition:transform 1s linear;
@@ -61,6 +60,15 @@ input:focus{
 #city {
   padding: 2px;
   margin: 0px 5px 5px 5px;
+}
+
+#male, #female {
+    width: 50px;
+}
+
+.radiotxt {
+    width: 20px;
+    display: inline-block;
 }
 
 .login_form {
