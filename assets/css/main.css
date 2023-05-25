@@ -15,6 +15,11 @@ nav {
   font-size: 20pt;
 }
 
+.logo img {
+  width: 100px;
+  margin: 0px 0px 0px 20px;
+}
+
 .bar {
   display: flex;
   align-content: center;
@@ -22,7 +27,7 @@ nav {
 }
 
 .brand, .product, .aboutus {
-  padding: 25px 40px 10px 40px;
+  padding: 30px 40px 10px 40px;
 }
 
 .nav_img {
@@ -35,6 +40,11 @@ nav {
 
 nav a {
   text-decoration: none;
+}
+
+#search {
+  height: 40%;
+  margin: 30px 10px 25px 10px;
 }
 
 body {
