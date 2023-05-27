@@ -17,7 +17,7 @@ nav {
 
 .logo img {
   width: 100px;
-  margin: 0px 0px 0px 20px;
+  margin: 0px 50px 0px 30px;
 }
 
 .bar {
@@ -28,6 +28,32 @@ nav {
 
 .brand, .product, .aboutus {
   padding: 30px 40px 10px 40px;
+}
+
+.product ul {
+  position: absolute;
+  z-index: 100;
+  min-width: 135px;
+}
+
+.product li {
+  list-style: none;
+  border: 2px solid #CF3030;
+  border-bottom: none;
+  background-color: #444444;
+  padding: 5px;
+}
+
+.product li:last-child {
+  border-bottom: 2px solid #CF3030;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.product:hover > .dropdown-menu {
+  display: block;
 }
 
 .nav_img {
@@ -148,10 +174,15 @@ body {
 }
 
 /*類別推薦*/
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
 .sec_timeline {
   height: 2600px;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .timecard{
