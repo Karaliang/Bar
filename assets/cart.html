@@ -12,25 +12,31 @@
 
 <nav>
     <!--Logo-->
-    <div class="logo"><img src="https://picsum.photos/100" alt="logo" style="border-radius: 50%;"></div>
-    <div class="bar">
-        <!--品牌介紹-->
-        <div class="brand"><a href="#">品牌介紹</a></div>
-        <!--產品分類-->
-        <div class="product">
-            產品分類
-        </div>
-        <!--關於我們-->
-        <div class="aboutus"><a href="#">關於我們</a></div>
-        <div class="nav_img">
-            <!--會員登入/會員資料-->
-            <a href="#"><img src="img/member.png" alt="member"></a>
-            <!--購物車-->
-            <a href="#"><img src="img/cart.png" alt="cart"></a>
-            <!--搜尋-->
-            <a href="#"><img src="img/search.png" alt="search"></a>
-        </div>
+    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+    <!--品牌介紹-->
+    <div class="brand"><a href="#">品牌介紹</a></div>
+    <!--產品分類-->
+    <!--參考資料：https://www.astralweb.com.tw/pure-css-drop-down-menu/-->
+    <ul class="product">產品分類&equiv;
+        <ul class="dropdown-menu">
+            <li><a href="#">恐怖</a></li>
+            <li><a href="#">愛情</a></li>
+            <li><a href="#">懸疑</a></li>
+            <li><a href="#">恐怖</a></li>
+        </ul>
+    </ul>
+    <!--關於我們-->
+    <div class="aboutus"><a href="#">關於我們</a></div>
+    <div class="nav_img">
+        <!--會員登入/會員資料-->
+        <a href="#"><img src="img/member.png" alt="member"></a>
+        <!--購物車-->
+        <a href="#"><img src="img/cart.png" alt="cart"></a>
+        <!--搜尋-->
+        <a href="#"><img src="img/search.png" alt="search"></a>
     </div>
+    <input type="search" id="search" placeholder="Search for something...">
+    
 </nav>
 
 
