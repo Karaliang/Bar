@@ -20,14 +20,8 @@ nav {
   margin: 0px 50px 0px 30px;
 }
 
-.bar {
-  display: flex;
-  align-content: center;
-  margin: 0 auto;
-}
-
-.brand, .product, .aboutus {
-  padding: 30px 40px 10px 40px;
+.brand, .product, .aboutus, .mem-center {
+  padding: 30px 20px 10px 20px;
 }
 
 .product ul {
@@ -57,7 +51,7 @@ nav {
 }
 
 .nav_img {
-  padding: 10px 0px 10px 100px;
+  padding: 10px 0px 10px 50px;
 }
 
 .nav_img img {
