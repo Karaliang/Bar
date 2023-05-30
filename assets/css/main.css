@@ -296,6 +296,7 @@ h1 {
 }
 
 footer {
+  width: 100%;
   background-color: #444444;
   text-align: center;
   padding: 10px;
