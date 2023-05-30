@@ -33,7 +33,7 @@ nav {
 body {
     background-color: #171717;
     color: #EDEDED;
-  }
+}
 
 .manage{
     width: 500px;
@@ -53,9 +53,9 @@ body {
     color:orange;
 }
 
-footer {
-    background-color: #444444;
-    text-align: center;
-    padding: 10px;
-    margin: 20px 0px 0px;
-  }
+a{
+    text-decoration:none
+}
+a:hover{
+    text-decoration:none
+}

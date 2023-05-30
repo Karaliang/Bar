@@ -22,52 +22,86 @@
 </nav>
 
 <body>
-    <table class="m_shelves">
-        <tr>
-            <td class="m_text">
-                產品名稱
-            </td>
-            <td class="m_text">
-                <input type="text" name="ProductID" value="">
-            </td>
-        </tr>
+    <p>產品上架</p>
+    <form action="" method="post">
+        <table class="m_shelves">
+            <tr>
+                <td class="m_text">
+                    產品名稱
+                </td>
+                <td class="m_text">
+                    <input type="text" name="ProductID" value="">
+                </td>
+            </tr>
 
-        <tr>
-            <td class="m_text">
-                產品類型
-            </td>
-        </tr>
+            <tr>
+                <td class="m_text">
+                    產品類型
+                </td>
+                <td class="m_text">
+                    <select name="ProductType">
+                        <option>&nbsp恐怖&nbsp</option>
+                        <option>&nbsp愛情&nbsp</option>
+                        <option>&nbsp懸疑&nbsp</option>
+                        <option>&nbsp科幻&nbsp</option>
+                    </select>
+                </td>
+            </tr>
 
-        <tr>
-            <td class="m_text">
-                產品價格
-            </td>
-        </tr>
+            <tr>
+                <td class="m_text">
+                    產品價格
+                </td>
+                <td class="m_text">
+                    NT$:<input class="m_text2" type="text" name="ProductPrice" value="">
+                </td>
+            </tr>
 
-        <tr>
-            <td class="m_text">
-                庫存數量
-            </td>
-        </tr>
+            <tr>
+                <td class="m_text">
+                    庫存數量
+                </td>
+                <td class="m_text">
+                    <input class="m_text2" type="text" name="ProductQuantity" value="">本
+                </td>
+            </tr>
 
-        <tr>
-            <td class="m_text">
-                產品介紹
-            </td>
-        </tr>
+            <tr>
+                <td class="m_text">
+                    產品介紹
+                </td>
+                <td class="m_text">
+                    <textarea name="Introduce" rows="5" cols="50"></textarea>
+                </td>
+            </tr>
 
-        <tr>
-            <td class="m_text">
-                優惠活動
-            </td>
-        </tr>
+            <tr>
+                <td class="m_text">
+                    優惠活動
+                </td>
+                <td class="m_text">
+                    <textarea name="Promotions" rows="5" cols="50">活動說明</textarea>
+                </td>
+            </tr>
 
-        <tr>
-            <td class="m_text">
-                產品圖片
-            </td>
-        </tr>
-    </table>
+            <tr>
+                <td class="m_text">
+                    產品圖片
+                </td>
+                <td class="m_text">
+                    <input type="file" name="pro_photo" id="pro_photo">
+                </td>
+            </tr>
+            <tr>
+                <td class="m_text" colspan="2">
+                    <input type="submit" value="送出資料">
+                </td>
+            </tr>
+        </table>
+
+
+
+    </form>
     
 </body>
 </html>
