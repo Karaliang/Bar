@@ -15,7 +15,7 @@ function minus(index) {
         var price=parseFloat(prices[index].value);
         //乘以Math.pow(10,2)的原因为避免失真
         var totalMoney=((price*Math.pow(10,2))*count)/Math.pow(10,2);
-        document.getElementById("price"+index).innerHTML="NT$："+totalMoney;
+        document.getElementById("price"+index).innerHTML="NT$:"+totalMoney;
     }
     total();
 }
@@ -34,7 +34,7 @@ function plus(index) {
     //乘以Math.pow(10,2)的原因为避免失真
     var totalMoney=((price*Math.pow(10,2))*count)/Math.pow(10,2);
     //把当前价格显示在文本中
-    document.getElementById("price"+index).innerHTML="NT$："+totalMoney;
+    document.getElementById("price"+index).innerHTML="NT$:"+totalMoney;
     total();
 }
 //求总金额
@@ -49,7 +49,7 @@ function total() {
         sumMoney+=(parseFloat(prices[i].value)*Math.pow(10,2)*parseInt(counts[i].value)/Math.pow(10,2));
     }
     //把总金额显示再指定的元素中
-    document.getElementById("totalPrice").innerHTML="NT$："+sumMoney;
+    document.getElementById("totalPrice").innerHTML="NT$:"+sumMoney;
 }
 
 //删除
