@@ -50,20 +50,22 @@
         <hr>
         <div class="revise">
             <form action="#">
-                <label for="">姓名</label>
-                <input type="text" name="member-name" placeholder="User123"><br>
-                <label for="">生日</label>
-                <input type="text" name="birth" placeholder="2002-11-01"><br>
-                <label for="">性別</label>
-                <input type="text" name="gender"  value="男" readonly><br>
-                <label for="">電話</label>
-                <input type="text" name="tel" placeholder="0912345678"><br>
-                <label for="">地址</label>
-                <input type="text" name="addr" placeholder="320桃園市中壢區中北路200號"><br>
-                <label for="">郵箱</label>
-                <input type="text" name="member-email" value="user123@gmail.com" readonly><br>
-                <label for="">密碼</label>
-                <input type="password" name="member-password" value="abc123" readonly><br>
+                <label for="name">姓名</label>
+                <input type="text" name="member-name" id="name" placeholder="User123"><br>
+                <label for="bday">生日</label>
+                <input type="text" name="birth" id="bday" placeholder="2002-11-01"><br>
+                <label for="gender">性別</label>
+                <input type="text" name="gender" id="gender" value="男" readonly><br>
+                <label for="tel">電話</label>
+                <input type="text" name="tel" id="tel" placeholder="0912345678"><br>
+                <label for="city">縣市</label>
+                <input type="text" name="city" id="city" placeholder="臺北市"><br>
+                <label for="addr">地址</label>
+                <input type="text" name="addr" id="addr" placeholder="320桃園市中壢區中北路200號"><br>
+                <label for="email">郵箱</label>
+                <input type="text" name="member-email" id="email" value="user123@gmail.com" readonly><br>
+                <label for="password">密碼</label>
+                <input type="password" name="member-password" id="psw" value="abc123" readonly><br>
                 <input type="button" value="修改" id="revise_btn" onclick="location.href='#revisee'">
             </form>
         </div>
