@@ -1,0 +1,15 @@
+.m_shelves{
+    width: 500px;
+    height: 500px;
+    border-style:solid;
+    text-align: center;
+    margin: 50px 500px;
+}
+
+.m_text{
+    width: 100px;
+    height: 10px;
+    border-style: solid;
+    font-size: 15pt;
+
+}
