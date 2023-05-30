@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>book</title>
+    <title>Bar！ | 商品頁</title>
+    <link rel="icon" type="image" href="img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/book.css">
     <link rel="stylesheet" href="css/main.css">
     <script>
@@ -22,39 +26,46 @@
         }
     </script>
 </head>
+
+<nav>
+    <!--Logo-->
+    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+    <!--品牌介紹-->
+    <div class="brand"><a href="#">品牌介紹</a></div>
+    <!--產品分類-->
+    <!--參考資料：https://www.astralweb.com.tw/pure-css-drop-down-menu/-->
+    <ul class="product">產品分類&equiv;
+        <ul class="dropdown-menu">
+            <li><a href="#">恐怖</a></li>
+            <li><a href="#">愛情</a></li>
+            <li><a href="#">懸疑</a></li>
+            <li><a href="#">恐怖</a></li>
+        </ul>
+    </ul>
+    <!--關於我們-->
+    <div class="aboutus"><a href="#">關於我們</a></div>
+    <!--會員中心-->
+    <div class="mem-center"><a href="#">會員中心</a></div>
+    <div class="nav_img">
+        <!--會員登入/會員資料-->
+        <a href="#"><img src="img/member.png" alt="member"></a>
+        <!--購物車-->
+        <a href="#"><img src="img/cart.png" alt="cart"></a>
+        <!--搜尋-->
+        <a href="#"><img src="img/search.png" alt="search"></a>
+    </div>
+    <input type="search" id="search" placeholder="Search for something...">
+    
+</nav>
+
 <body>
-    <header>
-        <nav>
-            <!--Logo-->
-            <div class="logo"><img src="img/logo.png" alt="logo"></div>
-            <div class="bar">
-                <!--品牌介紹-->
-                <div class="brand"><a href="#">品牌介紹</a></div>
-                <!--產品分類-->
-                <div class="product">
-                    產品分類
-                </div>
-                <!--關於我們-->
-                <div class="aboutus"><a href="#">關於我們</a></div>
-                <div class="nav_img">
-                    <!--會員登入/會員資料-->
-                    <a href="#"><img src="img/member.png" alt="member"></a>
-                    <!--購物車-->
-                    <a href="#"><img src="img/cart.png" alt="cart"></a>
-                    <!--搜尋-->
-                    <a href="#"><img src="img/search.png" alt="search"></a>
-                </div>
-                <input type="search" id="search" placeholder="Search for something...">
-            </div>
-        </nav> 
-    </header>
     <div class="array1">
         <div class="array2">
             <div class="img">
                 <img src="img/fantasy/fantasy03.jpg" >
             </div>
             <div class="c">
-                <div class="area" style="font-weight: bolder;"><h1>魔法道具博物館</h1></div>
+                <div class="area"><h1><b>魔法道具博物館</b></h1></div>
                 <div class="introduce">
                     <br>作者： 皮耶爾多梅尼克．巴卡拉里奧, 雅各．奧利維力</br>
                     <br>出版社：楓樹林出版社 </br>
@@ -94,31 +105,33 @@
     </div>
 
     <div class="comment">
-        <div class="QAQ">
-        <div class="flex_center">
-            <p>留言區</p>
-            <img src="https://picsum.photos/100" alt="" class="cmt_pro">
-            <div class="overstar">★★★☆☆</div>
-        </div>
-        <div class="comment_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus officia quaerat amet, eum impedit enim nam praesentium architecto dolore sint! Laborum assumenda reprehenderit, quidem cum nostrum eveniet facere autem velit!</div>
-        </div>
+        <h1>留言區</h1>
+        <hr>
         <div class="QAQ">
             <div class="flex_center">
-                <img src="https://picsum.photos/101" alt="" class="cmt_pro">
+                <img src="https://picsum.photos/100" alt="" class="cmt_pro">
+                <div class="overstar">★★★☆☆</div>
+            </div>
+            <div class="comment_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus officia quaerat amet, eum impedit enim nam praesentium architecto dolore sint! Laborum assumenda reprehenderit, quidem cum nostrum eveniet facere autem velit!</div>
+        </div>
+        <hr>
+        <div class="QAQ">
+            <div class="flex_center">
+                <img src="https://picsum.photos/100" alt="" class="cmt_pro">
                 <div class="overstar">★★★★☆</div>
             </div>
             <div class="comment_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus officia quaerat amet, eum impedit enim nam praesentium architecto dolore sint! Laborum assumenda reprehenderit, quidem cum nostrum eveniet facere autem velit!</div>
         </div>
-        
+        <hr>
+        <textarea name="" id="" cols="30" rows="10" class="write"></textarea>
         <div class="star">
-            <input type="radio" name="star" value="5" id="5"><label for="5">☆</label>
-            <input type="radio" name="star" value="4" id="4"><label for="4">☆</label>
-            <input type="radio" name="star" value="3" id="3"><label for="3">☆</label>
-            <input type="radio" name="star" value="2" id="2"><label for="2">☆</label>
             <input type="radio" name="star" value="1" id="1"><label for="1">☆</label>
+            <input type="radio" name="star" value="2" id="2"><label for="2">☆</label>
+            <input type="radio" name="star" value="3" id="3"><label for="3">☆</label>
+            <input type="radio" name="star" value="4" id="4"><label for="4">☆</label>
+            <input type="radio" name="star" value="5" id="5"><label for="5">☆</label>
         </div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-
+    </div>
         <div class="book">
             <p>推薦商品</p>
             <div class="image">
