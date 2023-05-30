@@ -20,8 +20,12 @@ nav {
   margin: 0px 50px 0px 30px;
 }
 
-.brand, .product, .aboutus, .mem-center {
+.product, .aboutus, .mem-center {
   padding: 30px 20px 10px 20px;
+}
+
+.product {
+  margin-left: 220px;
 }
 
 .product ul {
