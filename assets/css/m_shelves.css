@@ -32,3 +32,11 @@ p{
     height: 20px;
     text-align: center;
 }
+
+.submit_text{
+    font-size: 15pt;
+}
+
+select {
+    font-size: 15pt;
+}
