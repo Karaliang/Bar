@@ -1,103 +1,62 @@
-.sec1 {
-    width: 1300px;
-    height: 600px;
+.sec {
+    width: 80%;
+    min-height: 550px;
+    background-color: rgba(207, 48, 48, 0.3);
+    border-radius: 30px;
+    margin: 20px auto;
     padding: 10px;
-    background-color: #F0FFF0;
-    border-radius: 10px;
-    margin-left: 160px;
-    margin-top: 20px;
+    font-size: 16pt;
 }
 
-.headline h2 {
-    font-size: 45px;
-    color: #768e78;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    white-space: nowrap;
-    text-indent: 2em;
-    font-family: 'Yu Gothic UI Semibold';
+.revise {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18pt;
 }
 
-hr {
-    border: 1px solid #8a9daf;
+form {
+    display: block;
+    width: 100%;
+    margin: 30px;
+    padding: 20px 10px;
 }
 
-.sec1 img {
-    width: 280px;
-    height: 270px;
-    margin-top: 160px;
-    margin-left: -230px;
+label {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
 }
 
-.form {
-    margin-top: 120px;
-    margin-left: -220px;
+form input {
+    border:none;
+	border-bottom:1px solid #cf3030;
+	width:80%;
+    height: 30px;
 }
 
-ul {
-    font-size: 25px;
-    font-family: 'Yu Gothic UI Semibold';
+#revise_btn {
+    width: 88%;
+    height: 40px;
+    margin: 20px;
+    border-bottom: none;
+    font-size: 18pt;
 }
 
-#name1 {
-    list-style-image: url("../img/member_profile/name.png");
+table {
+    text-align: center;
+    border: 3px solid gray;
+    width: 90%;
+    margin: 20px auto;
 }
 
-#birthday {
-    list-style-image: url("../img/member_profile/birthday.png");
+tr, td {
+    padding: 15px;
 }
 
-#gender1 {
-    list-style-image: url("../img/member_profile/male.png");
+td:first-child {
+    width: 20%;
 }
 
-#phone {
-    list-style-image: url("../img/member_profile/phone.png");
-}
-
-#address {
-    list-style-image: url("../img/member_profile/address.png");
-}
-
-#mail {
-    list-style-image: url("../img/member_profile/mail.png");
-}
-
-#password1 {
-    list-style-image: url("../img/member_profile/padlock.png");
-}
-
-.name {
-    float: left;
-    margin-left: 260px;
-}
-
-.birthaday {
-    float: left;
-    margin-left: 100px;
-}
-
-.gender {
-    float: right;
-    margin-right: 110px;
-}
-
-.phone {
-    float: left;
-    margin-left: 260px;
-}
-
-.address {
-    float: left;
-    margin-left: 260px;
-}
-
-.mail {
-    float: right;
-    margin-right: 110px;
-}
-
-.password {
-    float: left;
-    margin-left: 260px;
+td img {
+    width: 200px;
 }
