@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/member.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!--Logo-->
+            <div class="logo"><img src="img/logo.png" alt="logo"></div>
+            <div class="bar">
+                <!--品牌介紹-->
+                <div class="brand"><a href="#">品牌介紹</a></div>
+                <!--產品分類-->
+                <div class="product">
+                    產品分類
+                </div>
+                <!--關於我們-->
+                <div class="aboutus"><a href="#">關於我們</a></div>
+                <div class="nav_img">
+                    <!--會員登入/會員資料-->
+                    <a href="#"><img src="img/member.png" alt="member"></a>
+                    <!--購物車-->
+                    <a href="#"><img src="img/cart.png" alt="cart"></a>
+                    <!--搜尋-->
+                    <a href="#"><img src="img/search.png" alt="search"></a>
+                </div>
+                <input type="search" id="search" placeholder="Search for something...">
+
+
+
+                <section class="sec1">
+                    <div class="headline">
+                        <h2>會員資料</h2>
+                        <hr>
+                    </div>
+                    <div>
+                        <img src="img/member_profile/dog.png">
+                    </div>
+                    <div class="form">
+                        <form id="profilee">
+                            <ul>
+                                <li class="name">姓名
+                                    <input type="text" name="member-name" placeholder="悠尼思">
+                                </li>
+                                <li class="birthaday">生日
+                                    <input type="text" name="birth" placeholder="2002-11-01">
+                                </li>
+                                <li class="gender">性別
+                                    <input type="text" name="gender"  value="男" readonly>
+                                </li>
+                                <li class="phone">電話
+                                    <input type="text" name="tel" placeholder="0920230101">
+                                </li>
+                                <li class="address">地址
+                                    <input type="text" name="addr" placeholder="321桃園市振平區安屏路36號">
+                                </li>
+                                <li class="mail">郵件
+                                    <input type="text" name="member-email" value="unus1120101@gmail.com" readonly>
+                                </li>
+                                <li class="password">密碼
+                                    <input type="password" name="member-password" value="abc123" readonly>
+                                </li>
+                            </ul>        
+                            <input type="button" value="修改" onclick="location.href='#revisee'">
+                        </form>
+                    </div>
+                </section>
+
+
+
+                <footer>
+                    Copyright © 2023 all rights reserved<br>
+                    瀏覽人數：
+                </footer>
+            </div>
+        </nav> 
+    </header> 
+</body>
+</html>

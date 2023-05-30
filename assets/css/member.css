@@ -1,0 +1,103 @@
+.sec1 {
+    width: 1300px;
+    height: 600px;
+    padding: 10px;
+    background-color: #F0FFF0;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.headline h2 {
+    font-size: 45px;
+    color: #768e78;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    text-indent: 2em;
+    font-family: 'Yu Gothic UI Semibold';
+}
+
+hr {
+    border: 1px solid #8a9daf;
+}
+
+.sec1 img {
+    width: 280px;
+    height: 270px;
+    margin-top: 160px;
+    margin-left: -230px;
+}
+
+.form {
+    margin-top: 120px;
+    margin-left: -220px;
+}
+
+ul {
+    font-size: 25px;
+    font-family: 'Yu Gothic UI Semibold';
+}
+
+#name1 {
+    list-style-image: url("../img/member_profile/name.png");
+}
+
+#birthday {
+    list-style-image: url("../img/member_profile/birthday.png");
+}
+
+#gender1 {
+    list-style-image: url("../img/member_profile/male.png");
+}
+
+#phone {
+    list-style-image: url("../img/member_profile/phone.png");
+}
+
+#address {
+    list-style-image: url("../img/member_profile/address.png");
+}
+
+#mail {
+    list-style-image: url("../img/member_profile/mail.png");
+}
+
+#password1 {
+    list-style-image: url("../img/member_profile/padlock.png");
+}
+
+.name {
+    float: left;
+    margin-left: 260px;
+}
+
+.birthaday {
+    float: left;
+    margin-left: 100px;
+}
+
+.gender {
+    float: right;
+    margin-right: 110px;
+}
+
+.phone {
+    float: left;
+    margin-left: 260px;
+}
+
+.address {
+    float: left;
+    margin-left: 260px;
+}
+
+.mail {
+    float: right;
+    margin-right: 110px;
+}
+
+.password {
+    float: left;
+    margin-left: 260px;
+}
