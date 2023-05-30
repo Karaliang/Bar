@@ -72,6 +72,12 @@ nav a {
   margin: 30px 10px 25px 10px;
 }
 
+#submit_Btn {
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+}
+
 body {
   background-color: #171717;
   color: #EDEDED;
