@@ -2,11 +2,7 @@
 //浮動廣告圖片
 var floatAdImg = "https://picsum.photos/1000/350";
 
-//開啟線上溝通
-function open_online()
-{
- window.open('');
-}
+
 //浮動廣告
 document.writeln("<div id=\"floatAd\" style=\" position:fixed !important; position:absolute; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight)); z-index: 2147483647; left: 50%; margin-left: -240px !important; top: 50%; margin-top: -210px !important; background:url("+floatAdImg+") no-repeat; width:487px; height:350px; cursor:pointer; display:none; \">");
 document.writeln("<div onclick=\"closeFAd();\" style=\" width:26px; height:26px; float:right;\"></div>");
