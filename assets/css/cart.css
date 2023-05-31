@@ -60,6 +60,12 @@ ul,li,ol{list-style: none;}
     width: 25px;
     text-align: center;
 }
+
+.cartList ul li input[name="minus"]:hover,.cartList ul li input[name="plus"]:hover{
+    background: white;
+}
+
+
 .cartList ul li:nth-of-type(1){width: 130px;}
 .cartList ul li:nth-of-type(2){width: 100px;}
 .cartList ul li:nth-of-type(3){width: 130px;}
