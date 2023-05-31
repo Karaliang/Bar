@@ -1,3 +1,8 @@
+.cart_p{
+    font-size: 36pt;
+    margin: 50px 0 0 360px;
+}
+
 ul,li,div,p,h1,h2,ol{margin: 0;padding: 0;}
 ul,li,ol{list-style: none;}
 .content_cart{width: 810px; margin: 0 auto;}
@@ -15,7 +20,7 @@ ul,li,ol{list-style: none;}
 }
 .cartList ul:nth-of-type(1){
     display: flex;
-    margin-top: 125px;
+    margin-top: 50px;
 }
 .cartList ul:nth-of-type(2){
     margin: 20px 0;
@@ -74,7 +79,8 @@ ul,li,ol{list-style: none;}
     line-height: 35px;
     text-align: center;
 }
-.cartList ol li span{display: inline-block;
+.cartList ol li span{
+    display: inline-block;
     float: right;
     width: 80px;
     height: 35px;

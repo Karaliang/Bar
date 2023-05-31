@@ -46,6 +46,7 @@
 
 <!--onload，在加载时计算好原始金额-->
 <body onload="total()">
+    <p class="cart_p">My Cart</p>
     <div class="content_cart">
         <div class="cartList">
             <ul>
@@ -59,7 +60,7 @@
             <ul style="display: flex;justify-content: space-between;align-items: center" id="first">
                 <li><img class="cart_img" src="https://picsum.photos/200"  alt="" ></li>
                 <li class="book_name">這裡可以放八個字</li>
-                <li class="book_name">NT$:<input type="text" name="price" value="290"></li>
+                <li class="book_name">NT$:<input readonly type="text" name="price" value="290"></li>
                 <li><input type="button" name="minus" value="-" onclick="minus(0)"><input type="text" name="amount" value="1" oninput="value=value.replace('-', '')"><input type="button" name="plus" value="+" onclick="plus(0)" ></li>
                 <li class="book_name" id="price0">NT$:290</li>
                 <li><p onclick="delete1()"><img class="garbage" src="img/garbage.png" alt="garbage"></p></li>
@@ -67,7 +68,7 @@
             <ul style="display: flex;justify-content: space-between;align-items: center; margin: 20px 0;">
                 <li><img class="cart_img" src="https://picsum.photos/300"  alt="" ></li>
                 <li class="book_name">《昆虫记》</li>
-                <li class="book_name">NT$:<input type="text" name="price" value="240"></li>
+                <li class="book_name">NT$:<input readonly type="text" name="price" value="240"></li>
                 <li><input type="button" name="minus" value="-" onclick="minus(1)"><input type="text" name="amount" value="1" oninput="value=value.replace('-', '')"><input type="button" name="plus" value="+" onclick="plus(1)"></li>
                 <li class="book_name" id="price1">NT$:240</li>
                 <li><p onclick="delete1()"><img class="garbage" src="img/garbage.png" alt="garbage"></p></li>
@@ -75,7 +76,7 @@
             <ul style="display: flex;justify-content: space-between;align-items: center; margin: 20px 0;">
                 <li><img class="cart_img" src="https://picsum.photos/400"  alt="" ></li>
                 <li class="book_name">一本書</li>
-                <li class="book_name">NT$:<input type="text" name="price" value="300"></li>
+                <li class="book_name">NT$:<input readonly type="text" name="price" value="300"></li>
                 <li><input type="button" name="minus" value="-" onclick="minus(2)"><input type="text" name="amount" value="1" oninput="value=value.replace('-', '')"><input type="button" name="plus" value="+" onclick="plus(2)"></li>
                 <li class="book_name" id="price2">NT$:300</li>
                 <li><p onclick="delete1()"><img class="garbage" src="img/garbage.png" alt="garbage"></p></li>
