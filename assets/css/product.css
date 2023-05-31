@@ -18,3 +18,8 @@ td {
 td img {
     width: 300px;
 }
+
+table a {
+    color: #ededed;
+    text-decoration: none;
+}

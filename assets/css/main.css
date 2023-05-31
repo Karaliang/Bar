@@ -301,8 +301,17 @@ h1 {
   font-size: 16pt;
 }
 
+.content p {
+  height: 220px;
+  overflow: hidden;
+}
+
 .content a {
   color: #EDEDED;
+}
+
+.book {
+  text-align: center;
 }
 
 footer {

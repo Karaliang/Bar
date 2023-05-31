@@ -69,10 +69,11 @@
                     <br>出版社：楓樹林出版社 </br>
                     <br>出版日期：2022/08/26</br>
                     <br>優惠價：239元</br>
+                    <br>庫存：100</br>
                 
                     <div class="shopping">
-                        <br><input type="button" value="-" class="btn" onclick="minus(0)">
-                        <input type="text" value="1" class="input_num">
+                        <input type="button" value="-" class="btn" onclick="minus(0)">
+                        <input type="text" value="1" class="input_num" readonly>
                         <input type="button" value="+" class="btn" onclick="add(0)"></br>
                         <input type="button" value="加入購物車" class="button_shop">
                         <input type="button" value="直接購買" class="button_shop">
@@ -121,39 +122,49 @@
             <div class="comment_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus officia quaerat amet, eum impedit enim nam praesentium architecto dolore sint! Laborum assumenda reprehenderit, quidem cum nostrum eveniet facere autem velit!</div>
         </div>
         <hr>
-        <textarea name="" id="" cols="30" rows="10" class="write"></textarea>
-        <div class="star">
-            <input type="radio" name="star" value="1" id="1"><label for="1">☆</label>
-            <input type="radio" name="star" value="2" id="2"><label for="2">☆</label>
-            <input type="radio" name="star" value="3" id="3"><label for="3">☆</label>
-            <input type="radio" name="star" value="4" id="4"><label for="4">☆</label>
-            <input type="radio" name="star" value="5" id="5"><label for="5">☆</label>
+        <div class="stars">
+            <input type="radio" name="star" id="star1" hidden />
+            <label for="star1"></label>
+    
+            <input type="radio" name="star" id="star2" hidden />
+            <label for="star2"></label>
+    
+            <input type="radio" name="star" id="star3" hidden />
+            <label for="star3"></label>
+    
+            <input type="radio" name="star" id="star4" hidden />
+            <label for="star4"></label>
+    
+            <input type="radio" name="star" id="star5" hidden />
+            <label for="star5"></label>
         </div>
+        <textarea name="" id="" cols="30" rows="10" class="write" placeholder="留下評論及評分吧！"></textarea>
+        <input type="submit" value="確認" id="send">
     </div>
-        <div class="book">
-            <p>推薦商品</p>
-            <div class="image">
-                <div class="recom">
-                    <img src="img/fantasy/fantasy06.jpg">
-                    <p>書</p>
-                </div>
-                <div class="recom">
-                    <img src="img/fantasy/fantasy05.jpg">
-                    <p>書</p>
-                </div>
-                <div class="recom">
-                    <img src="img/fantasy/fantasy04.jpg">
-                    <p>書</p>
-                </div>
-                <div class="recom">
-                    <img src="img/fantasy/fantasy07.jpg">
-                    <p>書</p>
-                </div>
+    <div class="book">
+        <p>推薦商品</p>
+        <div class="image">
+            <div class="recom">
+                <img src="img/fantasy/fantasy06.jpg">
+                <p>這裡可以放八個字</p>
+            </div>
+            <div class="recom">
+                <img src="img/fantasy/fantasy05.jpg">
+                <p>書</p>
+            </div>
+            <div class="recom">
+                <img src="img/fantasy/fantasy04.jpg">
+                <p>書</p>
+            </div>
+            <div class="recom">
+                <img src="img/fantasy/fantasy07.jpg">
+                <p>書</p>
             </div>
         </div>
-        <footer>
-            Copyright © 2023 all rights reserved<br>
-            瀏覽人數：
-        </footer>
+    </div>
+    <footer>
+        Copyright © 2023 all rights reserved<br>
+        瀏覽人數：
+    </footer>
 </body>
 </html>
