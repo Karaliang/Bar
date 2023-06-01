@@ -1,6 +1,6 @@
 // JavaScript Document
 //浮動廣告圖片
-var floatAdImg = "https://picsum.photos/800/500";
+var floatAdImg = "img/ads/1.png";
 
 
 //浮動廣告
