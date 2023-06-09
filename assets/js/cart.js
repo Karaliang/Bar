@@ -13,7 +13,7 @@ function minus(index) {
         amounts[index].value=count;
         var prices=document.getElementsByName("price");
         var price=parseFloat(prices[index].value);
-        //乘以Math.pow(10,2)的原因为避免失真
+        //乘以Math.pow(10,2)的原因为避免失真(傳回具有指定乘冪數的指定數字)
         var totalMoney=((price*Math.pow(10,2))*count)/Math.pow(10,2);
         document.getElementById("price"+index).innerHTML="NT$:"+totalMoney;
     }
@@ -31,7 +31,7 @@ function plus(index) {
     //得到当前端口的单价
     var prices=document.getElementsByName("price");
     var price=parseFloat(prices[index].value);
-    //乘以Math.pow(10,2)的原因为避免失真
+    //乘以Math.pow(10,2)的原因为避免失真(傳回具有指定乘冪數的指定數字)
     var totalMoney=((price*Math.pow(10,2))*count)/Math.pow(10,2);
     //把当前价格显示在文本中
     document.getElementById("price"+index).innerHTML="NT$:"+totalMoney;
